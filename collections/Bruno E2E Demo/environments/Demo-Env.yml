@@ -2,23 +2,20 @@ name: Demo-Env
 color: "#6dd0cb"
 variables:
   - name: username
-    value: jamesd
+    value: anthony
   - name: password
-    value: jamesdpass
+    value: anthonypass
   - name: env-ApiKey
     value: "{{process.env.apikey}}"
   - name: companyVar
     value: Bruno
   - name: nameVar
-    value: James Ha
+    value: Anthony Dombrowski
   - name: tokenVar
     value: tokenEnvironment
   - secret: true
     name: mongodb
   - secret: true
     name: news-api-key
-  - secret: true
-    name: baseUrl
-    disabled: true
   - secret: true
     name: reqres-api-key
